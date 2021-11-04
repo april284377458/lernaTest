@@ -1,0 +1,17 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "abbrev": "^1.1.1",
+    "babel-core": "^6.26.3",
+    "koa": "^2.13.4"
+  }
+}
