@@ -2,12 +2,13 @@
   "npmClient": "npm",
   "command": {
     "publish": {
-      "allowBranch": "master",
+      "allowBranch": "release",
       "conventionalCommits": true,
       "exact": true,
       "ignoreChanges": [
         "ignored-file",
-        "*.md"
+        "*.md",
+        "packages"
       ],
       "message": "chore(release): publish"
     },
